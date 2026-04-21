@@ -2,37 +2,37 @@
 
 :root {
   /* Volkswagen Blue Color Palette */
-  --vw-blue: #001E50;
-  --vw-light-blue: #00B1EB;
-  --vw-sky-blue: #7BAFD4;
-  --vw-white: #FFFFFF;
-  --vw-grey: #5A6872;
-  --vw-light-grey: #E8EBED;
+  --vw-blue: #001e50;
+  --vw-light-blue: #00b1eb;
+  --vw-sky-blue: #7bafd4;
+  --vw-white: #ffffff;
+  --vw-grey: #5a6872;
+  --vw-light-grey: #e8ebed;
   --vw-dark-blue: #001433;
-  --vw-accent-red: #E30613;
-  
+  --vw-accent-red: #e30613;
+
   --background: var(--vw-light-grey);
   --foreground: var(--vw-dark-blue);
-  
+
   --card: #ffffff;
   --card-foreground: var(--vw-dark-blue);
-  
+
   --primary: var(--vw-light-blue);
   --primary-foreground: #ffffff;
-  
+
   --secondary: var(--vw-blue);
   --secondary-foreground: #ffffff;
-  
+
   --accent: var(--vw-sky-blue);
   --accent-foreground: var(--vw-dark-blue);
-  
+
   --destructive: var(--vw-accent-red);
   --destructive-foreground: #ffffff;
-  
-  --border: #D0D5DA;
-  --input: #E8EBED;
+
+  --border: #d0d5da;
+  --input: #e8ebed;
   --ring: var(--vw-light-blue);
-  
+
   --radius: 0.5rem;
 }
 
@@ -43,15 +43,16 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", sans-serif;
 }
 
 h1 {
   font-size: 2.5rem;
   font-weight: 800;
   line-height: 1.2;
-  color: var(--vw-blue);
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  color: var(--vw-light-blue);
+  font-family: "Montserrat", "Arial", sans-serif;
   letter-spacing: -0.5px;
 }
 
@@ -60,7 +61,7 @@ h2 {
   font-weight: 700;
   line-height: 1.3;
   color: var(--vw-blue);
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
 }
 
 h3 {
@@ -74,6 +75,8 @@ button {
   cursor: pointer;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   font-family: inherit;
 }
